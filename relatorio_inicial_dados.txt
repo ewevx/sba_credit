@@ -1,0 +1,44 @@
+----Relatório Inicial da qualidade dos dados---
+[1] Dimensão do dataset
+ Total de linhas: 899164
+ Total de Colunas: 27
+
+[2] Informações das colnas (Tipos e nulos):
+                  Tipo de Dado  Valores Nulos  Nulos (%)
+LoanNr_ChkDgt            int64              0       0.00
+Name                       str             14       0.00
+City                       str             30       0.00
+State                      str             14       0.00
+Zip                      int64              0       0.00
+Bank                       str           1559       0.17
+BankState                  str           1566       0.17
+NAICS                    int64              0       0.00
+ApprovalDate               str              0       0.00
+ApprovalFY                 str              0       0.00
+Term                     int64              0       0.00
+NoEmp                    int64              0       0.00
+NewExist               float64            136       0.02
+CreateJob                int64              0       0.00
+RetainedJob              int64              0       0.00
+FranchiseCode            int64              0       0.00
+UrbanRural               int64              0       0.00
+RevLineCr                  str           4528       0.50
+LowDoc                     str           2582       0.29
+ChgOffDate                 str         736465      81.91
+DisbursementDate           str           2368       0.26
+DisbursementGross          str              0       0.00
+BalanceGross               str              0       0.00
+MIS_Status                 str           1997       0.22
+ChgOffPrinGr               str              0       0.00
+GrAppv                     str              0       0.00
+SBA_Appv                   str              0       0.00
+
+[3] Distribuição da variável alvo: 'MIS_Status'
+            Quantidade  Proporção (%)
+MIS_Status                           
+P I F           739609          82.26
+CHGOFF          157558          17.52
+NaN               1997           0.22
+
+ -> Nota: 'PIF' = Paid in Full (pago) | 'CHGOFF' = Charged off (Calote)
+============================================================

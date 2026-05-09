@@ -1,0 +1,40 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+build/
+dist/
+*.egg-info/
+
+# --- Jupyter Notebook ---
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+checkpoint_*.ipynb
+
+# --- Dados (Ignora datasets pesados para não estourar o limite do GitHub) ---
+data/*
+!data/.gitkeep
+*.csv
+*.parquet
+*.tsv
+*.xlsx
+
+# --- Modelos e Arquivos Binários ---
+# Se o seu modelo (.pkl) for maior que 100MB, considere usar Git LFS ou ignore-o aqui:
+# model/*.pkl
+*.joblib
+
+# --- Ambientes Virtuais e Configurações de IDE ---
+.vscode/
+.idea/
+.env
+.DS_Store
+Thumbs.db
+
+# --- Streamlit ---
+.streamlit/
