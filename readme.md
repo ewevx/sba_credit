@@ -6,7 +6,7 @@
 
 ---
 
-## 🌐 Aplicação Web (Live Demo)
+## Aplicação Web (Live Demo)
 O modelo preditivo já está em produção! Teste a interface interativa e veja as explicações da IA em tempo real acessando o link abaixo:
 
 👉 **[Acessar o Dashboard: SBA Intelligence App](https://sbacredit-0hk1ep0c4h2.streamlit.app/)**
