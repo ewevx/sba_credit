@@ -29,15 +29,15 @@ O modelo foi treinado e validado com foco extremo na proteção do capital, prio
 Abaixo, os principais padrões ocultos descobertos durante a Análise Exploratória de Dados (EDA):
 
 ### ⏳ Prazo do Empréstimo (Term) vs. Inadimplência
-![Gráfico de Densidade de Prazos](../img/imagem_KDE.png)
+![Gráfico de Densidade de Prazos](img/imagem_KDE.png)
 > **Insight:** Identificamos que empréstimos com prazos curtos possuem uma densidade de calote significativamente maior, o que indica uma alta pressão no fluxo de caixa de curto prazo do empresário.
 
 ### 🏢 Risco por Setor Econômico (NAICS)
-![Gráfico de Inadimplência por Setor](../img/imagem_NAICS.png)
+![Gráfico de Inadimplência por Setor](img/imagem_NAICS.png)
 > **Insight:** O risco não é distribuído de forma homogênea. Setores específicos (como alimentação e varejo) apresentam taxas históricas de default superiores à média, exigindo políticas de garantia (colaterais) mais rigorosas.
 
 ### 🧠 A "Caixa-Preta" Aberta (SHAP Values)
-![Gráfico SHAP Summary](../img/imagem_SHAP.png)
+![Gráfico SHAP Summary](img/imagem_SHAP.png)
 > **Insight:** O `summary_plot` revela que o prazo do empréstimo (`term`) e a porcentagem de garantia governamental (`sba_guarantee_pct`) são os maiores influenciadores da decisão preditiva, superando até mesmo o valor bruto do dinheiro solicitado.
 
 ## 🛠️ 5. Tecnologias Utilizadas
